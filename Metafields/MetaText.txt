@@ -1,0 +1,17 @@
+<div class="key-point1">
+          {% assign myList = product.metafields.custom.callout_1 | split: '"' %}
+          {% for item in myList %}
+            <div class="btnVgn">{{ item }}</div>
+          {% endfor %}
+          {% assign myList = product.metafields.custom.callout_2 | split: '"' %}
+          {% for item in myList %}
+            <div class="btnVgn">{{ item }}</div>
+          {% endfor %}
+          {% assign myList = product.metafields.custom.callout_3 | split: '"' %}
+          {% for item in myList %}
+            <div class="btnVgn">{{ item }}</div>
+          {% endfor %}
+</div>
+
+
+Hextom: Bulk Product Edit
